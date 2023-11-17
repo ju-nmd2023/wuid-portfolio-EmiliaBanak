@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="main.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
@@ -8,45 +9,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
-    <header>
+    <body>
       <nav>
         <ul>
-          <a href="index.html">
-            <li>home</li>
-            <link rel="stylesheet" href="" />
-          </a>
+          <a href="index.html"><button class="btn">HOME</button></a>
           <a href="my-projects.html">
-            <li>my projects</li>
-          </a>
-          <a href="contact.html">
-            <li>contact</li>
-          </a>
+            <button class="btn">MY PROJECTS</button></a>
+          <a href="contact.html"><button class="btn">CONTACT</button></a>
         </ul>
       </nav>
-      <header></header>
       <main>
-        <h1></h1>
-        <p class="paragraph3">My e-mail: baem23ks@student.ju.se</p>
-        <p class="paragraph6">or write your message here:</p>
-        <!-- The following  7 lines of code was adapted from https://www.shecodes.io/athena-->
-         <p class="textbox1">
-          <label for="Name">Name:</label>
-          <input type="text" id="Name" name="Name"
-          placeholder="Your e-mail"
-          />
-        <p class="textbox2">
-          <label for="Name">Name:</label>
-          <input type="text" id="Name" name="Name"
-            placeholder="Ask me a question"/>
-            <button class="button">Send</button>
-          />
+        <h1>Feel free to ask me questions.</h1>
+        <p class="contact">My e-mail: baem@student.ju.se</p>
+        <p class="contact">or write your message here:</p>
+        <!-- The following  6 lines of code was adapted from https://www.shecodes.io/athena-->
+        <p class="textbox">
+          <label for="Name"></label>
+          <input type="text" id="Name" name="Name" placeholder="Your e-mail" />
         </p>
-        <p class="info">Please include your contact information.</p>
+        <p class="textbox">
+          <label for="Name"></label>
+          <input
+            type="text"
+            id="Name"
+            name="Name"
+            placeholder="Ask me a question"
+          />
+          <button class="button">Send</button>
+        </p>
       </main>
-      <body></body>
-    </header>
+    </body>
   </head>
 </html>
