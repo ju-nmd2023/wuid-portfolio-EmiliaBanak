@@ -15,14 +15,17 @@
     <body>
       <nav>
         <ul>
+          <script src="main.js" defer></script>
           <a href="index.html"><button class="btn">HOME</button></a>
           <a href="my-projects.html">
-            <button class="btn">MY PROJECTS</button></a>
+            <button class="btn">MY PROJECTS</button></a
+          >
           <a href="contact.html"><button class="btn">CONTACT</button></a>
         </ul>
       </nav>
       <main>
-        <h1>Feel free to ask me questions.</h1>
+        <h3>Feel free to ask me questions.</h3>
+
         <p class="contact">My e-mail: baem@student.ju.se</p>
         <p class="contact">or write your message here:</p>
         <!-- The following  6 lines of code was adapted from https://www.shecodes.io/athena-->
@@ -38,7 +41,8 @@
             name="Name"
             placeholder="Ask me a question"
           />
-          <button class="button">Send</button>
+          <audio id="clickSound" src="/click.wav"></audio>
+          <button id="myButton" onclick="playClickSound()">Send</button>
         </p>
       </main>
     </body>
